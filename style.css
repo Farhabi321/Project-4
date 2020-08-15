@@ -1,0 +1,91 @@
+/* !-------------------------- SECTION CSS VARIABLES STARTS ------------------------- */
+:root {
+  --main-color: #222222;
+  --secondary-color: ;
+  --tertiary-color: ;
+  --quaternary-color: ;
+}
+/* *-------------------------- SECTION CSS VARIABLES ENDS ------------------------- */
+
+/* !------------------------ SECTION TYPOGRAPHY STARTS ----------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+.text-lvl-primary {
+  font-size: 70px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.primary--custom {
+  font-weight: 900;
+}
+.text-lvl-secondary {
+}
+.text-lvl-tertiary {
+}
+.text-lvl-quaternary {
+}
+.text-lvl-quinary {
+}
+.text-lvl-senary {
+}
+
+.para {
+  font-size: 16px;
+}
+
+/* *------------------------ SECTION TYPOGRAPHY ENDS ----------------------- */
+
+/* !--------------------- SECTION REUSEABLE BLOCKS STARTS -------------------- */
+/* *--------------------- SECTION REUSEABLE BLOCKS ENDS -------------------- */
+
+/* !----------------------- SECTION SECTION HERO STARTS ---------------------- */
+.section-hero {
+  background-image: linear-gradient(
+      to right,
+      rgba(19, 19, 19, 0.6),
+      rgba(19, 19, 19, 0.6)
+    ),
+    url("images/image_1.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.navbar--custom {
+  background: transparent !important;
+  padding-top: 35px;
+}
+.nav-item-custom {
+  padding: 0 15px;
+}
+.nav-link-custom {
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff !important;
+}
+.section-hero__body-container {
+  padding: 270px 0;
+}
+.section-hero__title-container {
+  margin-top: 50px;
+}
+.section-hero__para-container {
+  padding-top: 15px;
+}
+.section-hero__para--custom {
+  color: #bbbbbb;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+/* *----------------------- SECTION SECTION HERO ENDS ---------------------- */
+
+/* !---------------------- SECTION SECTION FOOTER STARTS --------------------- */
+/* *---------------------- SECTION SECTION FOOTER ENDS --------------------- */
