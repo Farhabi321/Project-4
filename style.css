@@ -5,7 +5,7 @@
   --tertiary-color: #bac964;
   --quaternary-color: ;
 }
-/* *-------------------------- SECTION CSS VARIABLES ENDS ------------------------- */
+/* *-------------------------- !SECTION CSS VARIABLES ENDS ------------------------- */
 
 /* !------------------------ SECTION TYPOGRAPHY STARTS ----------------------- */
 * {
@@ -17,6 +17,7 @@
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
+  text-align: center;
 }
 .text-lvl-primary {
   font-size: 70px;
@@ -35,11 +36,17 @@ body {
   font-weight: 900;
 }
 .text-lvl-tertiary {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 300;
   text-transform: capitalize;
 }
 .text-lvl-quaternary {
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+.quaternary--custom {
+  color: var(--tertiary-color);
 }
 .text-lvl-quinary {
 }
@@ -52,9 +59,10 @@ body {
 
 .para {
   font-size: 16px;
+  color: var(--secondary-color);
 }
 
-/* *------------------------ SECTION TYPOGRAPHY ENDS ----------------------- */
+/* *------------------------ !SECTION TYPOGRAPHY ENDS ----------------------- */
 
 /* !--------------------- SECTION REUSEABLE BLOCKS STARTS -------------------- */
 
@@ -63,7 +71,7 @@ body {
   padding-bottom: 50px;
   overflow: hidden;
 }
-/* *--------------------- SECTION REUSEABLE BLOCKS ENDS -------------------- */
+/* *--------------------- !SECTION REUSEABLE BLOCKS ENDS -------------------- */
 
 /* !----------------------- SECTION SECTION HERO STARTS ---------------------- */
 .section-hero {
@@ -104,12 +112,13 @@ body {
   letter-spacing: 3px;
   text-transform: uppercase;
 }
-/* *----------------------- SECTION SECTION HERO ENDS ---------------------- */
+/* *----------------------- !SECTION SECTION HERO ENDS ---------------------- */
 
 /* !-------------------- SECTION SECTION PORTFOLIO STARTS -------------------- */
 .section-portfolio {
   background: var(--main-color);
   overflow: hidden;
+  padding-bottom: 70px;
 }
 .navbar-custom {
   background: transparent !important;
@@ -125,7 +134,31 @@ body {
 .link--custom:hover {
   color: var(--tertiary-color) !important;
 }
-/* *-------------------- SECTION SECTION PORTFOLIO ENDS -------------------- */
+/* *-------------------- !SECTION SECTION PORTFOLIO ENDS -------------------- */
+
+/* !---------------------- SECTION SECTION RESUME STARTS --------------------- */
+.section-resume {
+  background: var(--main-color);
+}
+.section-resume__card-container {
+  overflow: hidden;
+  background-color: #333333;
+  margin-left: -17px;
+  padding: 15px 30px;
+  padding-top: 30px;
+  border-radius: 10px;
+}
+.card-container--custom {
+  margin-left: 0;
+}
+.icon--custom {
+  font-size: 12px;
+}
+.card-icon__left-para {
+  font-size: 12px;
+  text-transform: capitalize;
+}
+/* *---------------------- !SECTION SECTION RESUME ENDS --------------------- */
 
 /* !---------------------- SECTION SECTION FOOTER STARTS --------------------- */
-/* *---------------------- SECTION SECTION FOOTER ENDS --------------------- */
+/* *---------------------- !SECTION SECTION FOOTER ENDS --------------------- */
