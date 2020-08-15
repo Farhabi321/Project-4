@@ -1,8 +1,8 @@
 /* !-------------------------- SECTION CSS VARIABLES STARTS ------------------------- */
 :root {
   --main-color: #222222;
-  --secondary-color: ;
-  --tertiary-color: ;
+  --secondary-color: #7b7b7b;
+  --tertiary-color: #bac964;
   --quaternary-color: ;
 }
 /* *-------------------------- SECTION CSS VARIABLES ENDS ------------------------- */
@@ -20,21 +20,34 @@ body {
 }
 .text-lvl-primary {
   font-size: 70px;
-  font-weight: 400;
+  font-weight: 300;
   text-transform: capitalize;
 }
 .primary--custom {
   font-weight: 900;
 }
 .text-lvl-secondary {
+  font-size: 30px;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+.secondary--custom {
+  font-weight: 900;
 }
 .text-lvl-tertiary {
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: capitalize;
 }
 .text-lvl-quaternary {
 }
 .text-lvl-quinary {
 }
 .text-lvl-senary {
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #cccccc;
 }
 
 .para {
@@ -44,6 +57,12 @@ body {
 /* *------------------------ SECTION TYPOGRAPHY ENDS ----------------------- */
 
 /* !--------------------- SECTION REUSEABLE BLOCKS STARTS -------------------- */
+
+.section-heading__title-container {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  overflow: hidden;
+}
 /* *--------------------- SECTION REUSEABLE BLOCKS ENDS -------------------- */
 
 /* !----------------------- SECTION SECTION HERO STARTS ---------------------- */
@@ -86,6 +105,27 @@ body {
   text-transform: uppercase;
 }
 /* *----------------------- SECTION SECTION HERO ENDS ---------------------- */
+
+/* !-------------------- SECTION SECTION PORTFOLIO STARTS -------------------- */
+.section-portfolio {
+  background: var(--main-color);
+  overflow: hidden;
+}
+.navbar-custom {
+  background: transparent !important;
+}
+.link--custom {
+  font-size: 14px;
+  text-transform: capitalize;
+  color: #ffffff !important;
+}
+.active {
+  color: var(--tertiary-color) !important;
+}
+.link--custom:hover {
+  color: var(--tertiary-color) !important;
+}
+/* *-------------------- SECTION SECTION PORTFOLIO ENDS -------------------- */
 
 /* !---------------------- SECTION SECTION FOOTER STARTS --------------------- */
 /* *---------------------- SECTION SECTION FOOTER ENDS --------------------- */
