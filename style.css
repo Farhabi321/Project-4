@@ -202,18 +202,61 @@ body {
 .section-about {
   background: var(--main-color);
   text-align: left;
-  padding: 200px 0;
-}
-.about-img--custom {
-  height: 65vh;
+  padding: 100px 0;
 }
 .section-about__right-area {
-  padding: 0 60px;
+  padding: 0 50px;
 }
 .section-about__button-container {
   padding-top: 40px;
 }
 /* *--------------------- !SECTION SECTION ABOUT US ENDS -------------------- */
+
+/* !------------------- SECTION SECTION TESTIMONIAL STARTS ------------------- */
+.section-testimonial {
+  background: var(--main-color);
+}
+.section-testimonial__img--custom {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+.section-testimonial__text-container {
+  background: #333333;
+  border-radius: 7px;
+  position: relative;
+  -webkit-box-shadow: 9px 6px 11px 3px rgba(33, 33, 33, 0.64);
+  -moz-box-shadow: 9px 6px 11px 3px rgba(33, 33, 33, 0.64);
+  box-shadow: 9px 6px 11px 3px rgba(33, 33, 33, 0.64);
+}
+.section-testimonial__text-container::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-right: 14px solid #333333;
+  border-bottom: 14px solid transparent;
+  left: -14px;
+  top: 30px;
+}
+.blockquote--custom {
+  padding: 0 30px;
+  padding-top: 30px;
+  padding-bottom: 25px;
+}
+.cite--custom {
+  font-size: 14px;
+  color: #666666;
+}
+.cite-link {
+  text-decoration: none;
+  color: var(--tertiary-color);
+}
+.cite-link:hover {
+  text-decoration: none;
+  color: var(--tertiary-color);
+}
+/* *------------------- !SECTION SECTION TESTIMONIAL ENDS ------------------- */
 
 /* !---------------------- SECTION SECTION FOOTER STARTS --------------------- */
 .section-footer {
