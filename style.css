@@ -17,6 +17,7 @@
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
+  color: #ffffff;
   text-align: center;
 }
 .text-lvl-primary {
@@ -61,6 +62,9 @@ body {
   font-size: 16px;
   color: var(--secondary-color);
 }
+.para--custom {
+  font-size: 20px;
+}
 
 /* *------------------------ !SECTION TYPOGRAPHY ENDS ----------------------- */
 
@@ -70,6 +74,40 @@ body {
   padding-top: 100px;
   padding-bottom: 50px;
   overflow: hidden;
+}
+.section-heading--custom {
+  padding-top: 35px;
+  padding-bottom: 25px;
+}
+.button {
+  display: inline-block;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: transparent;
+  color: #ffffff;
+  padding: 9px 30px;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+}
+.button:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+.button--green {
+  background: var(--tertiary-color);
+}
+.button--green:hover {
+  background: #b2c251;
+}
+.button-green-custom {
+}
+.button--gray {
+  background: var(--secondary-color);
+}
+.button--gray:hover {
+  background: #5a6268;
 }
 /* *--------------------- !SECTION REUSEABLE BLOCKS ENDS -------------------- */
 
@@ -160,5 +198,61 @@ body {
 }
 /* *---------------------- !SECTION SECTION RESUME ENDS --------------------- */
 
+/* !--------------------- SECTION SECTION ABOUT US STARTS -------------------- */
+.section-about {
+  background: var(--main-color);
+  text-align: left;
+  padding: 200px 0;
+}
+.about-img--custom {
+  height: 65vh;
+}
+.section-about__right-area {
+  padding: 0 60px;
+}
+.section-about__button-container {
+  padding-top: 40px;
+}
+/* *--------------------- !SECTION SECTION ABOUT US ENDS -------------------- */
+
 /* !---------------------- SECTION SECTION FOOTER STARTS --------------------- */
+.section-footer {
+  background: var(--main-color);
+  padding: 40px 0;
+}
+.footer-para-custom {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--tertiary-color);
+  transition: all 0.3s ease-in-out;
+}
+.footer-para-custom:hover {
+  text-decoration: none;
+  color: #879539;
+}
+.section-footer__social-icon {
+  padding: 25px 0;
+}
+.section-footer__social-icon-item {
+  display: inline-block;
+  margin: 0 10px;
+}
+.section-footer__social-icon-links {
+  display: inline-block;
+  text-decoration: none;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #333333;
+  color: var(--tertiary-color);
+}
+.section-footer__social-icon-links:hover {
+  text-decoration: none;
+  background: #333333;
+  color: var(--tertiary-color);
+}
+.section-footer__social-icon-links i {
+  font-size: 22px;
+  line-height: 60px;
+}
 /* *---------------------- !SECTION SECTION FOOTER ENDS --------------------- */
