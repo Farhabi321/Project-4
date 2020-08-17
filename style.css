@@ -271,7 +271,14 @@ body {
 }
 .section-services__card-container {
   background: #333333;
-  padding: 30px;
+  padding: 50px 25px 50px 25px;
+  transition: all 0.3s ease-in-out;
+}
+.section-services__card-container:hover {
+  -webkit-box-shadow: 9px 7px 13px -4px rgba(0, 0, 0, 0.64);
+  -moz-box-shadow: 9px 7px 13px -4px rgba(0, 0, 0, 0.64);
+  box-shadow: 9px 7px 13px -4px rgba(0, 0, 0, 0.64);
+  transform: scale(1.1);
 }
 .section-services__icon-container {
   padding-bottom: 25px;
@@ -303,6 +310,62 @@ body {
   margin-left: 30px;
 }
 /* *--------------------- !SECTION SECTION SERVICES ENDS -------------------- */
+
+/* !----------------------SECTION SECTION BLOG STARTS --------------------- */
+.section-blog {
+  background: var(--main-color);
+  padding: 10px 0;
+}
+.section-blog__card-container {
+  background: #333333;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+.section-blog__card-container:hover {
+  -webkit-box-shadow: 9px 7px 13px -4px rgba(0, 0, 0, 0.64);
+  -moz-box-shadow: 9px 7px 13px -4px rgba(0, 0, 0, 0.64);
+  box-shadow: 9px 7px 13px -4px rgba(0, 0, 0, 0.64);
+  top: -2px;
+  transition: all 0.3s ease-in-out;
+}
+.section-blog__img-link,
+.section-blog__title-link,
+.section-blog__icon-link {
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+.section-blog__title-link {
+  color: #f7f7f7;
+  transition: all 0.3s ease-in-out;
+}
+.section-blog__title-link:hover {
+  text-decoration: none;
+  color: var(--tertiary-color);
+}
+.section-blog__icon-link {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--secondary-color);
+  text-transform: capitalize;
+  transition: all 0.3s ease-in-out;
+}
+.section-blog__icon-link:hover {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+.section-blog__icon-text {
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+.section-blog__icon-text:hover {
+  text-decoration: none;
+  color: var(--tertiary-color);
+}
+
+/* *---------------------- !SECTION SECTION BLOG ENDS ---------------------- */
+
+/* !--------------------- SECTION SECTION CONTACT STARTS --------------------- */
+/* *--------------------- SECTION SECTION CONTACT ENDS --------------------- */
 
 /* !---------------------- SECTION SECTION FOOTER STARTS --------------------- */
 .section-footer {
