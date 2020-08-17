@@ -3,6 +3,7 @@
   --main-color: #222222;
   --secondary-color: #7b7b7b;
   --tertiary-color: #bac964;
+  --quaternary-color: #333333;
   --quaternary-color: ;
 }
 /* *-------------------------- !SECTION CSS VARIABLES ENDS ------------------------- */
@@ -204,6 +205,10 @@ body {
   text-align: left;
   padding: 100px 0;
 }
+.section-about__img-container,
+.about-img--custom {
+  height: 100%;
+}
 .section-about__right-area {
   padding: 0 50px;
 }
@@ -257,6 +262,47 @@ body {
   color: var(--tertiary-color);
 }
 /* *------------------- !SECTION SECTION TESTIMONIAL ENDS ------------------- */
+
+/* !--------------------- SECTION SECTION SERVICES STARTS -------------------- */
+.section-services {
+  background: var(--main-color);
+  padding-top: 70px;
+  padding-bottom: 35px;
+}
+.section-services__card-container {
+  background: #333333;
+  padding: 30px;
+}
+.section-services__icon-container {
+  padding-bottom: 25px;
+}
+.section-services__icon-custom {
+  width: 100px;
+  height: 100px;
+  border-radius: 60px;
+  background: var(--tertiary-color);
+  font-size: 40px;
+  line-height: 100px;
+}
+.section-services__link-container {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: var(--tertiary-color);
+  transition: all 0.3s ease-in-out;
+}
+.section-services__link-container:hover {
+  text-decoration: none;
+  color: var(--tertiary-color);
+}
+.link-icon-custom {
+  margin-left: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.section-services__link-container:hover .link-icon-custom {
+  margin-left: 30px;
+}
+/* *--------------------- !SECTION SECTION SERVICES ENDS -------------------- */
 
 /* !---------------------- SECTION SECTION FOOTER STARTS --------------------- */
 .section-footer {
