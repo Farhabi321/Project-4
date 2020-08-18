@@ -77,8 +77,8 @@ body {
 /* !--------------------- SECTION REUSEABLE BLOCKS STARTS -------------------- */
 
 .section-heading__title-container {
-  padding-top: 100px;
-  padding-bottom: 50px;
+  padding-top: 103px;
+  padding-bottom: 54px;
   overflow: hidden;
 }
 .section-heading--custom {
@@ -273,7 +273,7 @@ body {
 /* !--------------------- SECTION SECTION SERVICES STARTS -------------------- */
 .section-services {
   background: var(--main-color);
-  padding-top: 70px;
+  padding-top: 73px;
   padding-bottom: 35px;
 }
 .section-services__card-container {
@@ -321,7 +321,7 @@ body {
 /* !----------------------SECTION SECTION BLOG STARTS --------------------- */
 .section-blog {
   background: var(--main-color);
-  padding: 10px 0;
+  padding: 13px 0;
 }
 .section-blog__card-container {
   background: #333333;
@@ -374,7 +374,7 @@ body {
 /* !--------------------- SECTION SECTION CONTACT STARTS --------------------- */
 .section-contact {
   background: var(--main-color);
-  padding: 70px 0;
+  padding: 75px 0;
 }
 .form-control {
   background: #333333 !important;
@@ -434,3 +434,43 @@ body {
   line-height: 60px;
 }
 /* *---------------------- !SECTION SECTION FOOTER ENDS --------------------- */
+
+/* !----------------------- SECTION MEDIA QUERY STARTS ----------------------- */
+/* Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) {
+  .navbar--custom {
+    text-align: left;
+  }
+  .text-lvl-primary {
+    font-size: 48px;
+  }
+  .item--custom {
+    display: inline-block;
+  }
+  .link--custom {
+    display: inline-block;
+  }
+  .section-about__right-area {
+    padding: 0;
+  }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+
+@media (max-width: 767.98px) {
+  ...;
+}
+
+/* Medium devices (tablets, less than 992px) */
+
+@media (max-width: 991.98px) {
+  ...;
+}
+
+/* Large devices (desktops, less than 1200px) */
+
+@media (max-width: 1199.98px) {
+  ...;
+}
+/* *----------------------- !SECTION MEDIA QUERY ENDS ----------------------- */
