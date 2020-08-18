@@ -63,6 +63,11 @@ body {
   font-size: 16px;
   color: var(--secondary-color);
 }
+.para-blue {
+  font-size: 12px;
+  color: #374f68;
+  text-transform: uppercase;
+}
 .para--custom {
   font-size: 20px;
 }
@@ -103,6 +108,8 @@ body {
   background: #b2c251;
 }
 .button-green-custom {
+  padding: 18px 32px;
+  border-radius: 30px;
 }
 .button--gray {
   background: var(--secondary-color);
@@ -365,6 +372,25 @@ body {
 /* *---------------------- !SECTION SECTION BLOG ENDS ---------------------- */
 
 /* !--------------------- SECTION SECTION CONTACT STARTS --------------------- */
+.section-contact {
+  background: var(--main-color);
+  padding: 70px 0;
+}
+.form-control {
+  background: #333333 !important;
+  border: none;
+  color: #ffffff;
+}
+.form-control:focus,
+.form-control:active {
+  background: #404040 !important;
+  border: none !important;
+  border-color: transparent !important;
+  box-shadow: none;
+}
+.form-button {
+  border: none;
+}
 /* *--------------------- SECTION SECTION CONTACT ENDS --------------------- */
 
 /* !---------------------- SECTION SECTION FOOTER STARTS --------------------- */
