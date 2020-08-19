@@ -20,6 +20,7 @@ body {
   font-weight: 300;
   color: #ffffff;
   text-align: center;
+  background: var(--main-color);
 }
 .text-lvl-primary {
   font-size: 70px;
@@ -78,7 +79,7 @@ body {
 
 .section-heading__title-container {
   padding-top: 103px;
-  padding-bottom: 54px;
+  padding-bottom: 56px;
   overflow: hidden;
 }
 .section-heading--custom {
@@ -229,8 +230,8 @@ body {
   background: var(--main-color);
 }
 .section-testimonial__img--custom {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   border-radius: 50px;
 }
 .section-testimonial__text-container {
@@ -459,13 +460,26 @@ body {
 /* Small devices (landscape phones, less than 768px) */
 
 @media (max-width: 767.98px) {
-  ...;
+  .navbar--custom {
+    text-align: left;
+  }
+  .section-about__right-area {
+    padding: 0;
+  }
 }
 
 /* Medium devices (tablets, less than 992px) */
 
 @media (max-width: 991.98px) {
-  ...;
+  .navbar--custom {
+    text-align: left;
+  }
+  .text-lvl-primary {
+    padding: 0 65px;
+  }
+  .section-about__right-area {
+    padding: 0;
+  }
 }
 
 /* Large devices (desktops, less than 1200px) */
